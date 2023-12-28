@@ -87,7 +87,7 @@ label_9 = Button(root, text= "9", padx= 50, font = font, pady= 20, command= lamb
 label_9.grid(row= 1, column= 2)
 label_clear = Button(root, text= "clear", font = font, padx= 40, pady= 20, command= lambda: button_clear())
 label_clear.grid(row= 4, column= 1)
-label_add = Button(root, text= "+", font = font, padx= 50, pady= 20, command= button_add)
+label_add = Button(root, text= "+", font = font, padx= 49, pady= 20, command= button_add)
 label_add.grid(row= 4, column= 3)
 label_sub = Button(root, text= "-", font = font, padx= 50, pady= 20, command= button_sub)
 label_sub.grid(row= 3, column= 3)
@@ -95,7 +95,7 @@ label_multi = Button(root, text= "*", font = font, padx= 50, pady= 20, command= 
 label_multi.grid(row= 2, column= 3)
 label_div = Button(root, text= "/", font = font, padx= 51, pady= 20, command= button_div)
 label_div.grid(row= 1, column= 3)
-label_equal = Button(root, text= "=", font = font, padx= 49, pady= 20, command= button_equal)
+label_equal = Button(root, text= "=", font = font, padx= 50, pady= 20, command= button_equal)
 label_equal.grid(row= 4, column= 2)
 
 # Start the Tkinter event loop, allowing the GUI to respond to user inputs and events
